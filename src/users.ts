@@ -3,3 +3,5 @@ export function logUsersMessage(): void {
 }
 
 logUsersMessage()
+
+// this is just to force an update on GitHub Actions
