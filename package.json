@@ -6,28 +6,29 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.18.2",
-    "typeorm": "^0.3.13",
     "axios": "^1.3.0",
+    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "winston": "^3.8.2",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.13",
+    "winston": "^3.8.2"
   },
   "devDependencies": {
-    "@types/express": "^4.17.15",
-    "@types/node": "^20.4.0",
     "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.15",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.4.0",
     "@types/winston": "^2.4.1",
-    "typescript": "^5.1.3",
-    "ts-node": "^10.9.1",
+    "jest": "^28.1.3",
     "ts-jest": "^28.0.8",
-    "jest": "^28.0.0"
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
   }
 }
